@@ -1,7 +1,7 @@
-const perfectSound = new Audio("sound/perfect.mp3");
-const goodSound = new Audio("sound/good.mp3");
-const missSound = new Audio("sound/miss.mp3");
-const progressSound = new Audio("sound/progress.mp3");
+const perfectSound = new Audio("perfect.mp3");
+const goodSound = new Audio("good.mp3");
+const missSound = new Audio("miss.mp3");
+const progressSound = new Audio("progress.mp3");
 
 progressSound.loop = true;
 
