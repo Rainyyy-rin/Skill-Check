@@ -259,7 +259,7 @@ startBtn.addEventListener("click",(event)=>{
         resultText.innerText = "";
 
         playing = true;
-
+        playProgress();
         startBtn.innerText = "STOP";
 
         startBtn.disabled = false;
